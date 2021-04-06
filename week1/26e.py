@@ -1,0 +1,5 @@
+genome = input()
+a = len(genome)
+b = genome.lower().count('g')
+d = genome.lower().count('c')
+print((b + d) / a *100)
